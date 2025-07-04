@@ -3,7 +3,7 @@
     <!-- Hero Section dengan Background Image -->
     <v-container fluid class="hero-section pa-0">
       <v-row class="fill-height" align="center" justify="center">
-        <v-col cols="12" md="8" lg="6">
+        <v-col cols="12" md="8" lg="6" class="mt-6">
           <div class="text-center">
             <!-- Header -->
             <h1 class="display-2 font-weight-bold text-white mb-4">
@@ -35,7 +35,12 @@
                   class="mb-4"
                 ></v-text-field>
 
-                <v-btn color="primary" large block @click="searchAppointment">
+                <v-btn
+                  color="indigo-lighten-1"
+                  large
+                  block
+                  @click="searchAppointment"
+                >
                   <v-icon left>mdi-magnify</v-icon>
                   Cari Sekarang
                 </v-btn>
@@ -87,13 +92,15 @@
       <v-container>
         <v-row>
           <v-col cols="12" md="4" class="text-center">
-            <v-icon color="primary" size="40" class="mb-2">mdi-phone</v-icon>
+            <v-icon color="indigo-darken-3" size="40" class="mb-2"
+              >mdi-phone</v-icon
+            >
             <h3>Hubungi Kami</h3>
             <p>(0341) 362101</p>
           </v-col>
 
           <v-col cols="12" md="4" class="text-center">
-            <v-icon color="primary" size="40" class="mb-2"
+            <v-icon color="indigo-darken-3" size="40" class="mb-2"
               >mdi-map-marker</v-icon
             >
             <h3>Alamat</h3>
@@ -104,7 +111,9 @@
           </v-col>
 
           <v-col cols="12" md="4" class="text-center">
-            <v-icon color="primary" size="40" class="mb-2">mdi-clock</v-icon>
+            <v-icon color="indigo-darken-3" size="40" class="mb-2"
+              >mdi-clock</v-icon
+            >
             <h3>Jam Operasional</h3>
             <p>24 Jam / 7 Hari</p>
           </v-col>
