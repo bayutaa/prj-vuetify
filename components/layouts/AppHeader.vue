@@ -53,6 +53,15 @@
           >
             Login
           </v-btn>
+
+          <v-btn
+            :to="'/testing'"
+            text
+            class="mx-2"
+            :class="{ 'text-primary': $route.path === '/testing' }"
+          >
+            Testing
+          </v-btn>
         </div>
       </div>
     </v-container>

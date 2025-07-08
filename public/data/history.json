@@ -1,0 +1,53 @@
+{
+  "timeline": [
+    {
+      "year": "1928",
+      "title": "Pendirian Awal",
+      "description": "Didirikan sebagai rumah sakit pertama di Malang dengan nama Gemeente Ziekenhuis.",
+      "details": "Pada tahun 1928, rumah sakit ini didirikan oleh pemerintah kolonial Belanda dengan kapasitas 50 tempat tidur. Berlokasi di pusat kota Malang, rumah sakit ini menjadi fasilitas kesehatan pertama yang modern di wilayah Malang Raya.",
+      "image": "/images/rssa 1.jpg"
+    },
+    {
+      "year": "1945",
+      "title": "Era Kemerdekaan",
+      "description": "Beralih menjadi rumah sakit umum milik pemerintah Indonesia setelah kemerdekaan.",
+      "details": "Setelah kemerdekaan Indonesia, rumah sakit ini diambil alih oleh pemerintah Indonesia dan mulai dikembangkan menjadi rumah sakit umum yang melayani masyarakat luas. Pada periode ini, rumah sakit mulai menerima tenaga medis Indonesia pertama.",
+      "image": "https://i.pinimg.com/736x/90/47/2d/90472d14e9cc3b254f21960d7f6fb473.jpg"
+    },
+    {
+      "year": "1963",
+      "title": "Menjadi RS Pendidikan",
+      "description": "Ditunjuk sebagai rumah sakit pendidikan FK UB.",
+      "details": "Dengan berdirinya Fakultas Kedokteran Universitas Brawijaya, RS Saiful Anwar ditetapkan sebagai rumah sakit pendidikan utama. Ini menandai dimulainya era baru sebagai pusat pendidikan dokter dan tenaga medis di Jawa Timur.",
+      "image": "https://i.pinimg.com/736x/b6/ee/c0/b6eec0fcf862bbde7c9dd3b191e49010.jpg"
+    },
+    {
+      "year": "1982",
+      "title": "Perubahan Nama",
+      "description": "Secara resmi berganti nama menjadi Rumah Sakit Umum Dr. Saiful Anwar.",
+      "details": "Rumah sakit ini dinamai sesuai dengan nama seorang tokoh dokter yang berjasa dalam pengembangan kesehatan di Indonesia. Nama Dr. Saiful Anwar dipilih untuk menghormati dedikasi beliau dalam dunia kedokteran.",
+      "image": "/images/rssa 3.jpg"
+    },
+    {
+      "year": "1991",
+      "title": "Status Rumah Sakit Tipe A",
+      "description": "Mendapat pengakuan sebagai rumah sakit tipe A dengan fasilitas pelayanan lengkap.",
+      "details": "Dengan semakin lengkapnya fasilitas dan pelayanan kesehatan, RS Saiful Anwar mendapat status sebagai rumah sakit tipe A. Status ini menunjukkan bahwa rumah sakit telah memenuhi standar pelayanan kesehatan tertinggi di Indonesia.",
+      "image": "/images/rssa 4.jpg"
+    },
+    {
+      "year": "2010",
+      "title": "Era Digitalisasi",
+      "description": "Implementasi sistem digital untuk efisiensi rumah sakit.",
+      "details": "Memasuki era digital, RS Saiful Anwar mulai mengimplementasikan sistem informasi rumah sakit yang terintegrasi. Sistem ini mencakup rekam medis elektronik, sistem antrian online, dan berbagai layanan digital lainnya.",
+      "image": "/images/rssa.jpg"
+    },
+    {
+      "year": "2023",
+      "title": "Inovasi dan Ekspansi",
+      "description": "Pengembangan telemedicine dan pembangunan gedung berteknologi modern.",
+      "details": "Pada tahun 2023, RS Saiful Anwar meluncurkan layanan telemedicine dan meresmikan gedung baru yang dilengkapi dengan teknologi medis terkini. Inovasi ini bertujuan untuk memberikan pelayanan kesehatan yang lebih baik dan aksesible bagi masyarakat.",
+      "image": "https://rsusaifulanwar.jatimprov.go.id/wp-content/uploads/2024/11/DSC03847-scaled.jpg"
+    }
+  ]
+}
