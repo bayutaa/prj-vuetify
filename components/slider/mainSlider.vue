@@ -1,11 +1,7 @@
 <template>
   <div class="main-slider">
-    <v-card flat class="pa-8">
-      <h1
-        class="text-h3 text-indigo-darken-4 font-weight-bold text-center mb-8"
-      >
-        Sejarah RSUD Dr. Saiful Anwar
-      </h1>
+    <v-card flat class="">
+      <LazyDiffContentHeaderContent headerHalaman="Tentang Kami" />
 
       <!-- Timeline Navigation -->
       <div class="timeline-nav mb-6">
@@ -46,9 +42,10 @@
   </div>
 </template>
 
+<!-- Menggunakan Composition API -->
 <script setup lang="ts">
 import { SliderDetailSlider } from "#components";
-import type { HistoryData } from "~/components/slider/slidertypedata";
+import type { HistoryData } from "~/utils/slidertypedata";
 
 // Data fetching dengan useFetch (Nuxt 3)
 const { data: historyData } = await useFetch<HistoryData>("/data/history.json");

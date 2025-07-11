@@ -41,8 +41,9 @@
   </div>
 </template>
 
+<!-- Menggunakan Composition API -->
 <script setup lang="ts">
-import type { TimelineItem } from "~/components/slider/slidertypedata";
+import type { TimelineItem } from "~/utils/slidertypedata";
 
 // Props
 interface Props {

@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "fullName": "John Doe",
+      "initials": "JD",
+      "image": "https://plus.unsplash.com/premium_photo-1689530775582-83b8abdb5020?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "role": "user",
+      "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "username": "janesmith",
+      "email": "jane.smith@example.com",
+      "password": "password123",
+      "fullName": "Jane Smith",
+      "initials": "JS",
+      "image": "https://i.pinimg.com/474x/7c/4d/b7/7c4db721c66ab67a8a5e0f93e0037933.jpg",
+      "role": "admin",
+      "createdAt": "2024-01-10T08:15:00Z"
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "fullName": "Administrator",
+      "initials": "AD",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "role": "admin",
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ]
+}

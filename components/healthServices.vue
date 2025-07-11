@@ -1,21 +1,10 @@
 <template>
   <div class="bg-white min-h-screen">
-    <!-- Header Section -->
-    <v-container class="pt-12 pb-8">
-      <v-row justify="center">
-        <v-col cols="12" md="10" lg="8">
-          <div class="text-center mb-8">
-            <h1 class="text-h3 font-weight-bold text-indigo-darken-4 mb-4">
-              Layanan Medis Kami
-            </h1>
-            <p class="text-h6 text-black font-weight-regular">
-              Temukan berbagai layanan kesehatan berkualitas tinggi dengan
-              teknologi modern
-            </p>
-          </div>
-        </v-col>
-      </v-row>
-    </v-container>
+    <LazyDiffContentHeaderContent
+      headerHalaman="Layanan Medis Kami"
+      subHeaderHalaman="Temukan berbagai layanan kesehatan berkualitas tinggi dengan
+              teknologi modern"
+    />
 
     <div class="pb-16">
       <kolomPencarian />

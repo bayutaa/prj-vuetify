@@ -3,15 +3,14 @@
     <!-- Hero Section dengan Background Image -->
     <v-container fluid class="hero-section pa-0">
       <v-row class="fill-height" align="center" justify="center">
-        <v-col cols="12" md="8" lg="6" class="mt-6">
+        <v-col cols="12" md="8" lg="8" class="mt-6">
           <div class="text-center">
-            <!-- Header -->
-            <h1 class="display-2 font-weight-bold text-white mb-4">
-              Rumah Sakit Sehat Bersama
-            </h1>
-            <p class="headline text-white mb-8">
-              Pelayanan kesehatan terpercaya untuk keluarga Anda
-            </p>
+            <LazyDiffContentHeaderContent
+              headerHalaman="Rumah Sakit Sehat Bersama"
+              subHeaderHalaman="Pelayanan kesehatan terpercaya untuk keluarga Anda"
+              headerColor="white"
+              subHeaderColor="white"
+            />
 
             <!-- Search Section -->
             <kolomPencarian />

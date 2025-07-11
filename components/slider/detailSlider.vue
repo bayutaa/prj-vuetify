@@ -5,7 +5,7 @@
         <v-card elevation="2" class="detail-card">
           <v-img
             :src="currentTimeline.image"
-            height="400"
+            height="350"
             cover
             :alt="`Gambar ${currentTimeline.title}`"
           >
@@ -43,25 +43,24 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "DetailSlider",
-  props: {
-    timelineData: {
-      type: Array,
-      required: true,
-    },
-    activeYear: {
-      type: Number,
-      default: 0,
-    },
+<!-- Menggunakan Composition API -->
+<script setup>
+import { computed } from "vue";
+
+const props = defineProps({
+  timelineData: {
+    type: Array,
+    required: true,
   },
-  computed: {
-    currentTimeline() {
-      return this.timelineData[this.activeYear] || null;
-    },
+  activeYear: {
+    type: Number,
+    default: 0,
   },
-};
+});
+
+const currentTimeline = computed(() => {
+  return props.timelineData[props.activeYear] || null;
+});
 </script>
 
 <style scoped>

@@ -1,18 +1,10 @@
 <template>
-  <v-container class="pt-12 pb-8">
-    <v-row justify="center">
-      <v-col cols="12" md="10" lg="8">
-        <div class="text-center mb-8">
-          <h1 class="text-h3 font-weight-bold text-indigo-darken-4 mb-4">
-            Kontak Kami
-          </h1>
-          <p class="text-h6 text-black font-weight-regular">
-            Tim kami selalu siap menjawab pertanyaan Anda kapan saja
-          </p>
-        </div>
-      </v-col>
-    </v-row>
-  </v-container>
+  <!-- Default -->
+  <LazyDiffContentHeaderContent
+    headerHalaman="Kontak Kami"
+    subHeaderHalaman="Tim kami selalu siap menjawab pertanyaan Anda kapan saja"
+  />
+
   <v-card
     class="mx-auto pa-12 pb-5 my-2"
     elevation="8"
@@ -32,23 +24,22 @@
   </v-card>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      phoneNumber: "+62 822-1577-8959",
-      message: "Halo, Saya butuh bantuan!",
-    };
-  },
+<script setup>
+import {
+  DiffContentHeaderContent,
+  LazyDiffContentHeaderContent,
+} from "#components";
 
-  methods: {
-    openWhatsApp() {
-      const cleanPhone = this.phoneNumber.replace(/[\s\-\+\(\)]/g, "");
-      const encodedMessage = encodeURIComponent(this.message);
-      const whatsappURL = `https://wa.me/${cleanPhone}?text=${encodedMessage}`;
+// Reactive data
+const phoneNumber = ref("+62 822-1577-8959");
+const message = ref("Halo, Saya butuh bantuan!");
 
-      window.open(whatsappURL, "_blank");
-    },
-  },
+// Methods
+const openWhatsApp = () => {
+  const cleanPhone = phoneNumber.value.replace(/[\s\-\+\(\)]/g, "");
+  const encodedMessage = encodeURIComponent(message.value);
+  const whatsappURL = `https://wa.me/${cleanPhone}?text=${encodedMessage}`;
+
+  window.open(whatsappURL, "_blank");
 };
 </script>

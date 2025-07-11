@@ -7,14 +7,6 @@ export interface TimelineItem {
   image: string;
 }
 
-export interface StatisticItem {
-  id: number;
-  title: string;
-  value: string;
-  icon: string;
-}
-
 export interface HistoryData {
   timeline: TimelineItem[];
-  statistics: StatisticItem[];
 }
