@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nama": "Dr. Ahmad Santoso, Sp.PD",
+    "spesialis": "Spesialis Penyakit Dalam",
+    "nip": "123456789",
+    "instalasi_id": 1,
+    "image": "https://randomuser.me/api/portraits/men/30.jpg"
+  },
+  {
+    "id": 2,
+    "nama": "Dr. Siti Nurhaliza, Sp.A",
+    "spesialis": "Spesialis Anak",
+    "nip": "987654321",
+    "instalasi_id": 1,
+    "image": "https://randomuser.me/api/portraits/women/31.jpg"
+  },
+  {
+    "id": 3,
+    "nama": "Dr. Budi Hartono, Sp.B",
+    "spesialis": "Spesialis Bedah",
+    "nip": "456789123",
+    "instalasi_id": 2,
+    "image": "https://randomuser.me/api/portraits/men/21.jpg"
+  },
+  {
+    "id": 4,
+    "nama": "Dr. Maya Sari, Sp.M",
+    "spesialis": "Spesialis Mata",
+    "nip": "789123456",
+    "instalasi_id": 2,
+    "image": "https://randomuser.me/api/portraits/women/53.jpg"
+  },
+  {
+    "id": 5,
+    "nama": "Dr. Andi Wijaya, Sp.JP",
+    "spesialis": "Spesialis Jantung",
+    "nip": "321654987",
+    "instalasi_id": 3,
+    "image": "https://randomuser.me/api/portraits/men/76.jpg"
+  },
+  {
+    "id": 6,
+    "nama": "Dr. Rina Kusuma, Sp.KK",
+    "spesialis": "Spesialis Kulit dan Kelamin",
+    "nip": "654987321",
+    "instalasi_id": 3,
+    "image": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "id": 7,
+    "nama": "Dr. Hendra Pratama, Sp.OG",
+    "spesialis": "Spesialis Obstetri dan Ginekologi",
+    "nip": "147258369",
+    "instalasi_id": 4,
+    "image": "https://randomuser.me/api/portraits/men/24.jpg"
+  },
+  {
+    "id": 8,
+    "nama": "Dr. Linda Sari, Sp.THT",
+    "spesialis": "Spesialis Telinga Hidung Tenggorok",
+    "nip": "963852741",
+    "instalasi_id": null,
+    "image": "https://randomuser.me/api/portraits/women/68.jpg"
+  },
+  {
+    "id": 9,
+    "nama": "Dr. Rizki Ananda, Sp.U",
+    "spesialis": "Spesialis Urologi",
+    "nip": "258147369",
+    "instalasi_id": null,
+    "image": "https://randomuser.me/api/portraits/men/51.jpg"
+  },
+  {
+    "id": 10,
+    "nama": "Dr. Dina Puspita, Sp.N",
+    "spesialis": "Spesialis Neurologi",
+    "nip": "741852963",
+    "instalasi_id": null,
+    "image":"https://randomuser.me/api/portraits/women/17.jpg"
+  }
+]

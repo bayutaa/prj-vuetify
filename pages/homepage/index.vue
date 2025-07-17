@@ -1,10 +1,12 @@
 <template>
   <div>
-    <h1>Ini adalah halaman homepage setelah login</h1>
+    <LazyHompageDashboardHomepage/>
   </div>
 </template>
 
 <script setup>
+import { LazyHompageDashboardHomepage } from '#components';
+
 definePageMeta({
   layout: "homepage",
 });

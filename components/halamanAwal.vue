@@ -13,7 +13,7 @@
             />
 
             <!-- Search Section -->
-            <kolomPencarian />
+            <SearchBarKolomPencarian />
           </div>
         </v-col>
       </v-row>

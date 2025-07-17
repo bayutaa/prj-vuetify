@@ -26,54 +26,5 @@
     "description": "Pemeriksaan lab dengan teknologi terkini",
     "icon": "mdi-test-tube",
     "color": "purple"
-  },
-  {
-    "id": 5,
-    "name": "Kardiologi",
-    "description": "Layanan jantung dan pembuluh darah berteknologi modern",
-    "icon": "mdi-heart-pulse",
-    "color": "indigo-darken-1"
-  },
-  {
-    "id": 6,
-    "name": "IGD",
-    "description": "Layanan darurat 24 jam dengan tim medis siaga",
-    "icon": "mdi-ambulance",
-    "color": "red-darken-1"
-  },
-  {
-    "id": 7,
-    "name": "Neurologi",
-    "description": "Spesialis saraf dan otak dengan pemeriksaan lengkap",
-    "icon": "mdi-brain",
-    "color": "light-blue"
-  },
-  {
-    "id": 8,
-    "name": "Farmasi",
-    "description": "Apotek lengkap dengan obat-obatan berkualitas",
-    "icon": "mdi-mortar-pestle-plus",
-    "color": "green-darken-1"
-  },
-  {
-    "id": 9,
-    "name": "Radiologi",
-    "description": "Pemeriksaan radiologi dengan teknologi digital terdepan",
-    "icon": "mdi-image-filter-center-focus",
-    "color": "brown"
-  },
-  {
-    "id": 10,
-    "name": "Medical Check Up",
-    "description": "Paket pemeriksaan kesehatan menyeluruh",
-    "icon": "mdi-clipboard-check",
-    "color": "teal-darken-1"
-  },
-  {
-    "id": 11,
-    "name": "Orthopedi",
-    "description": "Spesialis tulang dan sendi dengan teknologi modern",
-    "icon": "mdi-bone",
-    "color": "orange-darken-1"
   }
 ]

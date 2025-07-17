@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar color="indigo-lighten-1">
+  <v-app-bar color="white">
     <v-app-bar-nav-icon
       variant="text"
       @click.stop="drawer = !drawer"
@@ -57,6 +57,11 @@ const items = [
     title: "Dashboard",
     value: "dashboard",
     to: "/homepage",
+  },
+  {
+    title: "Layanan",
+    value: "layanan",
+    to: "/homepage/layanan",
   },
   {
     title: "Profile",

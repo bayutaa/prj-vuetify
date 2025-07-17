@@ -1,15 +1,5 @@
 <template>
   <div class="bg-white min-h-screen">
-    <LazyDiffContentHeaderContent
-      headerHalaman="Layanan Medis Kami"
-      subHeaderHalaman="Temukan berbagai layanan kesehatan berkualitas tinggi dengan
-              teknologi modern"
-    />
-
-    <div class="pb-16">
-      <kolomPencarian />
-    </div>
-
     <!-- Services Grid -->
     <!-- Opsi 1: Menggunakan v-for dengan kondisi terpisah -->
     <v-container>

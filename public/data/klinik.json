@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Kardiologi",
+    "description": "Layanan jantung dan pembuluh darah berteknologi modern",
+    "icon": "mdi-heart-pulse",
+    "color": "indigo-darken-1"
+  },
+  {
+    "id": 2,
+    "name": "Neurologi",
+    "description": "Spesialis saraf dan otak dengan pemeriksaan lengkap",
+    "icon": "mdi-brain",
+    "color": "light-blue"
+  },
+  {
+    "id": 3,
+    "name": "Radiologi",
+    "description": "Pemeriksaan radiologi dengan teknologi digital terdepan",
+    "icon": "mdi-image-filter-center-focus",
+    "color": "brown"
+  },
+  {
+    "id": 4,
+    "name": "Orthopedi",
+    "description": "Spesialis tulang dan sendi dengan teknologi modern",
+    "icon": "mdi-bone",
+    "color": "orange-darken-1"
+  },
+  {
+    "id": 5,
+    "name": "Kecantikan",
+    "description": "Spesialis Rekontruksi Wajah dan Estetika",
+    "icon": "mdi-face-woman-shimmer",
+    "color": "pink-lighten-2"
+  },
+  {
+    "id": 6,
+    "name": "Mata",
+    "description": "Pemeriksaan dan perawatan mata dengan teknologi modern",
+    "icon": "mdi-eye-check-outline",
+    "color": "teal-lighten-2"
+  },
+  {
+    "id": 7,
+    "name": "Paru",
+    "description": "Solusi kesehatan paru-paru Anda dengan dokter ahli",
+    "icon": "mdi-lungs",
+    "color": "cyan-lighten-3"
+  }
+]

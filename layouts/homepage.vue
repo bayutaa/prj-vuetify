@@ -3,4 +3,5 @@
   <v-main>
     <slot />
   </v-main>
+  <LayoutsAppFooter />
 </template>
